@@ -1,0 +1,27 @@
+{
+    "name": "nej-umi",
+    "version": "0.0.1",
+    "description": "UMI System for NEJ",
+    "author": "caijf <caijf@corp.netease.com>",
+    "license": "MIT",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "mocha-phantomjs test/test.html",
+        "lint": "eslint src/**/*.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/genify/nej-umi.git"
+    },
+    "keywords": [
+        "nej",
+        "modular",
+        "dispatcher"
+    ],
+    "devDependencies": {
+        "mocha": ">=3.0.2",
+        "chai": ">=3.5.0"
+    }
+}
