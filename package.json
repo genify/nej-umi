@@ -2,7 +2,7 @@
     "name": "nej-umi",
     "version": "0.0.1",
     "description": "UMI System for NEJ",
-    "author": "caijf <caijf@corp.netease.com>",
+    "author": "genify <genify@163.com>",
     "license": "MIT",
     "directories": {
         "test": "test"
@@ -17,11 +17,8 @@
     },
     "keywords": [
         "nej",
+        "router",
         "modular",
         "dispatcher"
-    ],
-    "devDependencies": {
-        "mocha": "^3.5.2",
-        "chai": "^4.1.2"
-    }
+    ]
 }

@@ -1,0 +1,31 @@
+{
+    "name": "nej-umi",
+    "version": "0.0.1",
+    "authors": [
+        "genify <genify@163.com>"
+    ],
+    "description": "UMI System for NEJ",
+    "moduleType": [
+        "globals"
+    ],
+    "keywords": [
+        "nej",
+        "router",
+        "modular",
+        "dispatcher"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/genify/nej-umi.git",
+    "ignore": [
+        "doc",
+        "test",
+        "demo"
+    ],
+    "dependencies": {
+        "nej-define": "git+https://github.com/genify/nej-define.git"
+    },
+    "devDependencies": {
+        "mocha": "^3.5.2",
+        "chai": "^4.1.2"
+    }
+}
